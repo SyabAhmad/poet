@@ -12,7 +12,7 @@ def main():
     # Chat with GPT-3.5
     if user_question:
         # Call GPT-3.5 for fine-tuning
-        with st.spinner("Fine-tuning the model..."):
+        with st.spinner("Wait a bit MenteE ☺, Poetry is on th way..."):
             client = anthropic.Anthropic()
             message = client.messages.create(
                 model="claude-3-opus-20240229",
